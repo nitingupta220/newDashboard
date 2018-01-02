@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#"><img src="Group.png" alt="" height="30" width="150"></a>
+                <a href="#" class="navbar-brand initial">A</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid dashboardBody">
+        <div class="row">
+            <div class="col-md-12 no-padding header">
+                <div class="col-md-2">
+                    <h3>LIVE UPDATES</h3>
+                </div>
+                <div class="col-md-7"></div>
+                <div class="col-md-3">
+                    <p>Total orders : 7067</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5 statusOrder">
+                <div class="col-md-12" style="border-bottom: 1px solid #6a7a8c;margin-top: 32px;margin-bottom: 20px;">
+                    <div class="col-md-4 intended">
+                        <p>Current Intended</p>
+                        <h6>2000</h6>
+                    </div>
+                    <div class="col-md-4 accpeted">
+                        <p>Accepted</p>
+                        <h6 class="text-center">1257</h6>
+                    </div>
+                    <div class="col-md-4 rejected">
+                        <p>Rejected</p>
+                        <h6 class="text-center">567</h6>
+                    </div>
+                </div>
+                <div class="col-md-12 text-center" style="border-bottom: 1px solid #6a7a8c;margin-top: 18px;">
+                    <p class="text-center" style="margin-bottom: 30px;">Fulfiling most orders (Vendors)</p>
+                    <img src="lineChart.png" height="300" alt="" style="width: 100%;">
+                    <p class="text-center" style="margin-top: 11px;"><span>Primary : </span>Gati Transporters</p>
+                    <p class="text-center" style="margin-bottom: 20px;"><span>Secondary : </span>VRL Transporters</p>
+                </div>
+                <div class="col-md-12" style="padding-top: 20px;">
+                    <div class="col-md-6">
+                        <p class="text-left">Estimated Freight</p>
+                        <h6>2,08,692 <span>INR</span></h6>
+                    </div>
+                    <div class="col-md-6 primary">
+                        <p>Primary Movement</p>
+                        <h6>2,08,692 <span>INR</span></h6>
+                    </div>
+                </div>
+                <div class="col-md-12 text-right secondary">
+                    <div class="col-md-6"></div>
+                    <div class="col-md-6">
+                        <p>Secondary Movement</p>
+                        <h6>2,08,692 <span>INR</span></h6>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="col-md-6 payable">
+                        <p>Payable</p>
+                        <h6>2,08,692 <span>INR</span></h6>
+                    </div>
+                    <div class="col-md-6 gst">
+                        <p>GST ITC</p>
+                        <h6>2,08,692 <span>INR</span></h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-7 chartStatus no-padding">
+                <div class="col-md-12 no-padding" style="border-bottom: 1px solid #566f89;padding-top: 1em;padding-bottom: 1em;height: 303px;margin-top: 33px;">
+                    <div class="col-md-3" style="border-right:1px solid #566f89;">
+                        <div class="col-md-12">
+                            <p>Assigned Orders</p>
+                            <h6 class="text-center">2,982</h6>
+                        </div>
+                        <div class="col-md-12 arrived">
+                            <p>Arrived Orders</p>
+                            <h6 class="text-center">2,982</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-4 arrived" style="border-right:1px solid #566f89;text-align: center">
+                        <p>Dispatched Orders</p>
+                        <h6 class="text-center">789</h6>
+                        <img src="piechart1.png" height="100" width="150" alt="">
+                    </div>
+                    <div class="col-md-4 no-padding" style="width: 200px;padding-left: 10px;text-align: center">
+                        <p>Dispatched Orders</p>
+                        <h6 class="text-center">789</h6>
+                        <img src="piechart2.jpg" height="100" width="150" alt="">
+                    </div>
+                    <div class="col-md-1 no-padding delay">
+                        <div>
+                            <p class="dot"></p>
+                            <span>1 Day Delay</span>
+                            <p class="orderCount">34 Orders</p>
+                        </div>
+                        <div>
+                            <p class="dot"></p>
+                            <span>2 Day Delay</span>
+                            <p class="orderCount">47 Orders</p>
+                        </div>
+                        <div>
+                            <p class="dot"></p>
+                            <span>>2 Day Delay</span>
+                            <p class="orderCount">97 Orders</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12" style="padding-top: 33px;">
+                    <div class="col-md-12" style="margin-bottom: 19px;">
+                        <div class="col-md-3">
+                            <p>Capacity utilization</p>
+                        </div>
+                        <div class="col-md-5"></div>
+                        <div class="col-md-2 weight">
+                            <p class="dot"></p>
+                            <p>Weight</p>
+                        </div>
+                        <div class="col-md-2 volume">
+                            <p class="dot"></p>
+                            <p>Volume</p>
+                        </div>
+                    </div>
+                    <div class="col-md-12" style="margin-bottom: 18px;">
+                        <img src="Screen%20Shot%202017-12-31%20at%201.11.36%20AM.png" alt="" height="400" style="width: 100%;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

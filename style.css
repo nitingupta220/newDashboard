@@ -1,0 +1,203 @@
+body {
+    font-family: "Proxima Nova" !important;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 0;
+    height: 50px;
+    background-color: #234357;
+}
+
+.navbar .navbar-header {
+    width: 100%;
+}
+
+.navbar a {
+    color: rgba(97, 97, 97, 1);
+    letter-spacing: 0.05em;
+    text-align: left;
+    text-decoration: none;
+    padding: 9px;
+}
+
+.navbar .initial {
+    border: 1px solid rgba(244, 244, 244, 1);
+    border-radius: 40px;
+    background-color: #fff;
+    float: right;
+    height: 30px;
+    margin: 10px 34px 0 0;
+    width: 30px;
+    padding: 4px 9px;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.dashboardBody {
+    position: relative;
+    top: 50px;
+}
+
+.header {
+    height: 60px;
+    width: 100%;
+    background-color: #2f4760;
+}
+
+.header h3 {
+    color: #fff;
+    text-align: left;
+    letter-spacing: 0.04em;
+    margin-top: 16px;
+    margin-left: 7px;
+}
+
+.header p {
+    font-size: 20px;
+    color: #ddd;
+    text-align: right;
+    margin-right: 44px;
+    letter-spacing: 0.06em;
+    margin-top: 16px;
+}
+
+.statusOrder {
+    background-color: #213b58;
+    padding-bottom: 0;
+}
+
+.statusOrder .intended p {
+    font-size: 15px;
+}
+
+.statusOrder .accpeted,
+.intended,
+.rejeted,
+p {
+    font-size: 16px;
+    color: lightgrey;
+    text-align: center;
+}
+
+.statusOrder .intended,
+.accpeted,
+h6 {
+    font-size: 30px;
+    color: lightgrey;
+    text-align: left;
+}
+
+.statusOrder .rejected h6 {
+    color: lightsalmon;
+}
+
+.statusOrder span {
+    font-size: 16px;
+    color: gray;
+}
+
+.statusOrder .primary p {
+    font-size: 16px;
+    color: lightgrey;
+    text-align: left;
+    letter-spacing: 0.03em;
+}
+
+.statusOrder .primary h6 {
+    font-size: 20px;
+}
+
+.statusOrder .secondary p {
+    font-size: 16px;
+    color: lightgrey;
+    text-align: left;
+    letter-spacing: 0.03em;
+}
+
+.statusOrder .secondary h6 {
+    font-size: 20px;
+}
+
+.statusOrder .gst p {
+    font-size: 16px;
+    color: lightgrey;
+    text-align: left;
+    letter-spacing: 0.03em;
+}
+
+.statusOrder .gst h6 {
+    font-size: 20px;
+}
+
+.statusOrder .payable p {
+    font-size: 16px;
+    color: loghtgrey;
+    text-align: left;
+    letter-spacing: 0.03em;
+}
+
+.statusOrder .payable h6 {
+    color: lightsalmon;
+    margin-bottom: 30px;
+}
+
+.chartStatus {
+    background-color: #21354D;
+}
+
+.chartStatus p {
+    font-size: 16px;
+}
+
+.chartStatus .arrived h6 {
+    font-size: 30px;
+    color: goldenrod;
+}
+
+.chartStatus .weight .dot {
+    height: 9px;
+    width: 10px;
+    background-color: #336ea1;
+    border-radius: 10px/9px;
+    margin: 0;
+    float: left;
+    margin-top: 6px;
+    margin-right: 7px;
+}
+
+.chartStatus .volume .dot {
+    height: 9px;
+    width: 10px;
+    background-color: #fff;
+    border-radius: 10px/9px;
+    margin: 0;
+    float: left;
+    margin-top: 6px;
+    margin-right: 7px;
+}
+
+.dot {
+    height: 9px;
+    width: 10px;
+    background-color: #53a8e2;
+    border-radius: 10px/9px;
+    margin: 0;
+    float: left;
+    margin-top: 6px;
+    margin-right: 7px;
+}
+.delay {
+    color: #ccc;
+    font-size: 12px;
+    width: 100px;
+    margin-top: 110px;
+}
+.delay .orderCount {
+    margin-left: 17px;
+}
