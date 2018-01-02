@@ -87,11 +87,11 @@ body {
 }
 
 .statusOrder .border-bottom {
-    border-bottom: 1px solid #6a7a8c;
+    border-bottom: 0.5px solid #6a7a8c;
 }
 
 .statusOrder .first {
-    border-bottom: 1px solid #6a7a8c;
+    border-bottom: 0.5px solid #6a7a8c;
     margin-top: 30px;
     margin-bottom: 20px;
 }
@@ -129,9 +129,11 @@ h6 {
     color: #CADCFF;
     font-style: italic;
 }
+
 .statusOrder .primary {
     margin-bottom: 10px;
 }
+
 .statusOrder .primary p {
     font-size: 16px;
     color: #8CACCF;
@@ -145,9 +147,11 @@ h6 {
     font-size: 20px;
     font-weight: normal;
 }
+
 .statusOrder .secondary {
     margin-bottom: 30px;
 }
+
 .statusOrder .secondary p {
     font-size: 16px;
     color: #8CACCF;
@@ -189,11 +193,11 @@ h6 {
 
 .chartStatus p {
     font-size: 16px;
-    font-weight: 300;    
+    font-weight: 300;
 }
 
 .chartStatus .first {
-    border-bottom: 1px solid #566f89;
+    border-bottom: 0.5px solid #566f89;
     padding-top: 1em;
     padding-bottom: 1em;
     height: 303px;
@@ -212,7 +216,7 @@ h6 {
 }
 
 .chartStatus .border-right {
-    border-right: 1px solid #566f89;
+    border-right: 0.5px solid #566f89;
     text-align: center
 }
 
@@ -259,13 +263,15 @@ h6 {
 
 .delay .orderCount {
     margin-left: 17px;
-    font-size: 14px;   
+    font-size: 14px;
 }
+
 .weight {
     font-size: 14px;
     color: #82a1c4;
     margin-right: -10px;
 }
+
 .volume {
     font-size: 14px;
     color: #82a1c4;
@@ -276,4 +282,23 @@ h6 {
     font-style: italic;
     font-family: proxima_nova_ltthin;
     font-size: 12px;
+}
+
+span.spanSecondary {
+    font-style: normal;
+    color: #CADCFF;
+    font-family: proxima_nova_ltthin
+}
+
+.margin-top0 {
+    margin-top: 0;
+}
+
+.margin-bottom8 {
+    margin-bottom: -8px;
+}
+
+.margin1 {
+    margin-top: 11px;
+    margin-bottom: 2px;
 }
