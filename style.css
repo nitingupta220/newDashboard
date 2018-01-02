@@ -86,6 +86,10 @@ body {
     background-color: #213b58;
 }
 
+.statusOrder .border-bottom {
+    border-bottom: 1px solid #6a7a8c;
+}
+
 .statusOrder .first {
     border-bottom: 1px solid #6a7a8c;
     margin-top: 32px;
@@ -186,6 +190,17 @@ h6 {
     color: #F5A623;
 }
 
+.chartStatus .delivered {
+    width: 200px;
+    padding-left: 10px;
+    text-align: center
+}
+
+.chartStatus .border-right {
+    border-right: 1px solid #566f89;
+    text-align: center
+}
+
 .chartStatus .weight .dot {
     height: 9px;
     width: 10px;
@@ -228,4 +243,8 @@ h6 {
 
 .delay .orderCount {
     margin-left: 17px;
+}
+
+.delay .orderCount span {
+    font-style: italic;
 }
