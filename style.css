@@ -92,7 +92,7 @@ body {
 
 .statusOrder .first {
     border-bottom: 1px solid #6a7a8c;
-    margin-top: 32px;
+    margin-top: 30px;
     margin-bottom: 20px;
 }
 
@@ -116,11 +116,12 @@ h6 {
     font-size: 30px;
     color: #CADCFF;
     text-align: left;
-    font-weight: bold;
+    font-weight: 400;
 }
 
 .statusOrder .rejected h6 {
     color: #E8655D;
+    font-weight: 600;
 }
 
 .statusOrder span {
@@ -128,24 +129,31 @@ h6 {
     color: #CADCFF;
     font-style: italic;
 }
-
+.statusOrder .primary {
+    margin-bottom: 10px;
+}
 .statusOrder .primary p {
     font-size: 16px;
     color: #8CACCF;
     text-align: left;
     letter-spacing: 0.03em;
+    margin-bottom: 2px;
+    margin-bottom: 2px;
 }
 
 .statusOrder .primary h6 {
     font-size: 20px;
     font-weight: normal;
 }
-
+.statusOrder .secondary {
+    margin-bottom: 30px;
+}
 .statusOrder .secondary p {
     font-size: 16px;
     color: #8CACCF;
     text-align: left;
     letter-spacing: 0.03em;
+    margin-bottom: 2px;
 }
 
 .statusOrder .secondary h6 {
@@ -158,6 +166,7 @@ h6 {
     color: #CADCFF;
     text-align: left;
     letter-spacing: 0.03em;
+    margin-bottom: 2px;
 }
 
 .statusOrder .gst h6 {
@@ -170,6 +179,7 @@ h6 {
     color: loghtgrey;
     text-align: left;
     letter-spacing: 0.03em;
+    margin-bottom: 2px;
 }
 
 .statusOrder .payable h6 {
@@ -179,7 +189,7 @@ h6 {
 
 .chartStatus p {
     font-size: 16px;
-    font-weight: bolder;    
+    font-weight: 300;    
 }
 
 .chartStatus .first {
@@ -197,7 +207,7 @@ h6 {
 
 .chartStatus .delivered {
     width: 200px;
-    padding-left: 10px;
+    padding-left: 30px;
     text-align: center
 }
 
@@ -244,13 +254,23 @@ h6 {
     font-size: 12px;
     width: 100px;
     margin-top: 70px;
+    padding-left: 14px;
 }
 
 .delay .orderCount {
     margin-left: 17px;
-    font-size: 14px;
-    
+    font-size: 14px;   
 }
+.weight {
+    font-size: 14px;
+    color: #82a1c4;
+    margin-right: -10px;
+}
+.volume {
+    font-size: 14px;
+    color: #82a1c4;
+}
+
 
 .delay .orderCount span {
     font-style: italic;
